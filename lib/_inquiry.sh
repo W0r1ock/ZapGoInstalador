@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link do GITHUB do seu AutoAtende que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira o link do GITHUB do seu Whaticket que deseja instalar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -205,15 +205,15 @@ backup() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao AutoAtende selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bem vindo(a) ao Whaticket selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar AutoAtende\n"
-  printf "   [1] Atualizar AutoAtende\n"
-  printf "   [2] Deletar AutoAtende\n"
-  printf "   [3] Bloquear AutoAtende\n"
-  printf "   [4] Desbloquear AutoAtende\n"
-  printf "   [5] Alter. dominio AutoAtende\n"
-  printf "   [6] Backup BD AutoAtende\n"
+  printf "   [0] Instalar Whaticket\n"
+  printf "   [1] Atualizar Whaticket\n"
+  printf "   [2] Deletar Whaticket\n"
+  printf "   [3] Bloquear Whaticket\n"
+  printf "   [4] Desbloquear Whaticket\n"
+  printf "   [5] Alter. dominio Whaticket\n"
+  printf "   [6] Backup BD Whaticket\n"
   printf "\n"
   read -p "> " option
 
